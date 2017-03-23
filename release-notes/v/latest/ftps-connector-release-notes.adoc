@@ -32,8 +32,7 @@ No migration steps required.
 - Server certificate validation on CloudHub is not supported.
 - SSL session reuse is not supported.
 
-
-== Version 1.1.0 - March 3, 2017
+== Version 1.1.0 - March 3, 2016
 
 Release Notes for version 1.1.0 of the FTPS connector. These release notes accompany the link:/anypoint-b2b/ftps-connector[FTPS Connector Guide].
 
