@@ -22,9 +22,7 @@ password-based encryption using PBE with MD5 and Triple DES, and with a 168-bit 
 If the blue create button doesn't list *FIFO Queue*:
 
 * Ensure you have an Anypoint MQ FIFO entitlement. Check with your MuleSoft representative.
-* Ensure that your region setting is US-West:
-+
-image:mqfifo-set-to-us-west.png[mqfifo-set-to-us-west]
+* Ensure that your region setting is Oregon (us-west-2), Northern Virginia (us-east-1), or Ireland (eu-west-1).
 
 [[inflights]]
 == How many in flight messages can I have per queue?
@@ -138,6 +136,10 @@ Yes, Anypoint MQ guarantees "at least once" delivery of messages to the destinat
 
 You can use a `curl` command with the link:/anypoint-mq/mq-apis#mqadminapi[REST Administration API] in a `for` loop to create the number of queues and message exchanges you need. See an link:/anypoint-mq/mq-apis#excoliuscu[example `curl` command] that you can alter to create a queue or message exchange.
 
+== Does the messages per month usage charge pertain to all environments?
+
+Yes, to all environments.
+
 == Why am I seeing 400 bad request errors when using prefetch to receive messages?
 
 When using MQ as a message processor with prefetch, only use a global prefetch configuration.
@@ -196,6 +198,10 @@ image:mq-click-type-x2.png[mq-click-type-x2]
 image:mq-delete-exchange.png[mq-delete-exchange]
 +
 . Click *Delete Exchange*.
+
+== Why do I see the message decrypted in the UI for my encrypted queues?
+
+When you have a queue encrypted, the messages are stored encrypted but they are decrypted when they are read - this is automatic and transparent to the final user. There's no option to disable the automatic decryption. If you need to encrypt the message so that the payload remains encrypted, manually encrypt the content.
 
 == See Also
 
