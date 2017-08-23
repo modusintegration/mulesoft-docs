@@ -7,6 +7,8 @@ If this icon is not visible, click Go To Draft.
 
 After publishing, you can add tags, share your asset, or download a copy.
 
+link:/anypoint-exchange/ex2-add-asset#to-delete-an-asset[Need to delete an asset?]
+
 == To Add Tags to Your Asset in Exchange
 
 You can add tags to identify key aspects of your asset. Users 
@@ -18,7 +20,7 @@ A tag string can be any set of words. To choose an international character, hold
 
 == To Share an Asset in Exchange
 
-Click image:ex2-share.png[ex2-share] and choose a name from the drop-down list. The Share feature does not share an asset in the Exchange 2.0 Beta.
+Click image:ex2-share.png[ex2-share] and choose a name from the drop-down list. 
 
 == To Download an Asset in Exchange
 

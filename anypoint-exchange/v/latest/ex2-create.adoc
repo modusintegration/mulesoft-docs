@@ -1,10 +1,12 @@
 = To Create and Maintain Exchange Assets
 :keywords: exchange, anypoint exchange, create, maintain, assets
 
-Anypoint Exchange lets you create or maintain assets for your organization. The ability to create assets lets you create a
+Anypoint Exchange lets you create and maintain assets for your organization. The ability to create assets lets you create a
 private Exchange for your organization. The sections that follow help you create and maintain your private Exchange.
 
 You can add any of the Exchange content for access by users in your organization.
+
+link:/anypoint-exchange/ex2-add-asset#to-delete-an-asset[Need to delete an asset?]
 
 [%header,cols="40a,60a"]
 |===
