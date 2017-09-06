@@ -1,6 +1,6 @@
 = B2B Transaction-Processing Framework
 
-A link:/anypoint-b2b/glossary#sectb[_B2B transaction-processing solution_] serves as a translation layer between internal systems and the various formats (X12, EDIFACT, XML, CSV, and others) and transport protocols (AS2, FTP/S, and others) commonly used in electronic transactions between companies. Because a company typically cannot dictate that all its trading partners adhere to a single configuration, it is often necessary to develop custom solutions for each trading partner. When custom software development is required for each trading partner, the effort and time required to onboard new trading partners increases dramatically, thereby limiting the business relationships a company can pursue.
+A link:/anypoint-b2b/glossary#sectb[_B2B transaction-processing solution_] serves as a translation layer between internal systems and the various formats (X12, EDIFACT, XML, CSV, and others) and transport protocols (AS2, FTP/S, and others) commonly used in electronic transactions between companies. Because a company typically cannot mandate that all its trading partners adopt a single configuration, it is often necessary to develop custom solutions for trading partners. When such software development is required, the effort and time necessary to onboard new trading partners increases dramatically, thereby limiting the business relationships a company can pursue.
 
 link:/anypoint-b2b/glossary#sectb[_B2B Transaction Processing Framework_] enables developers to build a single set of link:/mule-user-guide[Mule Runtime] flows that can process a wide range of messages from many different partners by dynamically applying rules and configuration data stored in <<Anypoint Partner Manager>>.
 //link:/anypoint-b2b/anypoint-partner-manager[Anypoint Partner Manager] (APM).
@@ -12,7 +12,7 @@ This section identifies high-level framework components and their roles in end-t
 
 B2B transaction processing typically proceeds through some combination of the stages shown in xref:img-functional-architecture[].``
 
-NOTE: Processing stages and their sequence can vary between implementations.
+NOTE: Whether a processing stage is present, as well as where it appears in the processing sequence, can vary from implementation to implementation.
 
 [[img-functional-architecture]]
 image::functional-architecture.png[img-functional-architecture,title="Functional Architecture"]
