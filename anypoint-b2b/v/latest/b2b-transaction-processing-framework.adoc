@@ -12,7 +12,7 @@ This section identifies high-level framework components and their roles in end-t
 
 B2B transaction processing typically proceeds through some combination of the stages shown in xref:img-functional-architecture[].``
 
-NOTE: Whether a processing stage is present, as well as where it appears in the processing sequence, can vary from implementation to implementation.
+NOTE: Whether a given processing stage is present, as well as where it appears in the processing sequence, may vary from implementation to implementation.
 
 [[img-functional-architecture]]
 image::functional-architecture.png[img-functional-architecture,title="Functional Architecture"]
