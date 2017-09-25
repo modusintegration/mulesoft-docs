@@ -1,35 +1,34 @@
-= Export a Project to Studio (Design Center)
+= To Export a Project (Design Center)
 :keywords:
 
 
-You can download the source of your Design Center project to a file. This file can then be imported into Anypoint Studio.
+This procedure describes how to download your Design Center project. 
 
-Anypoint Studio, the Eclipse-based editor for Mule applications, allows you to configure advanced options and edit the XML code of your application directly.
+== Export Source to Studio
 
-[NOTE]
-Note: Projects exported from Design Center are only supported by Studio version 7.x and later, which supports Mule runtime version 4.x.
+You download the source if you want to later import the project into Studio 7.x as an Anypoint Studio Deployable Archive. You can keep the project in Design Center and Studio in sync if you configure your Anypoint Platform organization user and password in Studio in Preferences > Anypoint Studio > Authentication.
 
 . In Design Center, first make sure there are no errors marked in your project. 
 
-. Click the download icon image:export-studio-design-center-24d8a.png[] and select Download Source.
+. Click Download image:export-studio-design-center-24d8a.png[] and select Download Source.
 
 +
-A .jar file containing your project is downloaded by your browser to the default location in your local disk.
+A JAR containing your project is downloaded to the default location in your local disk.
 
-. In Studio, make sure your installation is configured with your Anypoint Platform organization user and password. For this go to Preferences > Anypoint Studio > Authentication.
+== Export Package to Runtime Manager
 
+You download the package if you want to later import the project into Runtime Manager as a Mule 4 project. In Runtime Manager, in Deploy Application, you can choose the downloaded JAR file to import.
 
-. In Studio, choose File > Import and select Anypoint Studio > Anypoint Studio Generated Deployable Archive.
+. In Design Center, first make sure there are no errors marked in your project. 
+
+. Click Download image:export-studio-design-center-24d8a.png[] and select Download Package.
 
 +
-The project is now imported into Studio. You are free to work in it as you wish through Anypoint Studio.
+A JAR containing your project is downloaded to the default location in your local disk.
 
 
 
 == See Also
 
-* link:https://docs.mulesoft.com/anypoint-studio/[Anypoint Studio]
+* link:/anypoint-studio/[Anypoint Studio]
 
-* link:/design-center/v/1.0/workflow-create-and-run-a-mule-project[Workflow: Create and Run a Mule Project]
-
-* link:/design-center/v/1.0/promote-app-prod-env-design-center[Promote an Application to a Production Environment]
