@@ -29,7 +29,7 @@ To get API access information:
 +
 [source]
 ----
-curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "client_id=CLIENT_ID&client_secret=CLIENT_SECRET&grant_type=client_credentials" "https://mq-us-east-1.anypoint.mulesoft.com/api/v1/authorize"
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "client_id=CLIENT_ID&client_secret=CLIENT_SECRET&grant_type=client_credentials" "+https://mq-us-east-1.anypoint.mulesoft.com/api/v1/authorize+"
 ----
 +
 Possible locations are: Northern Virginia (us-east-1), Ireland (eu-west-1), Singapore (ap-southeast-1), Sydney (ap-southeast-2), or Oregon (us-west-2).
@@ -145,7 +145,7 @@ After you have the lock ID, you can add it to your Postman environment to facili
 === To Set Up Anypoint Studio for API Access
 
 Anypoint Studio lets you create a Mule application that uses the Anypoint MQ connector.
-The steps in this section are summarized. For more information, see the link:/anypoint-mq/mq-studio[Anypoint Studio guide] in the Anypoint MQ documentation set.
+The steps in this section are summarized. 
 
 You can set up a Studio project with: 
 

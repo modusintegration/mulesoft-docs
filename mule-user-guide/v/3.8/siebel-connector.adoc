@@ -300,7 +300,7 @@ image:siebel-dep.png[siebel-dep]
 |===
 
 . Keep the *Pooling Profile* and the *Reconnection* tabs with their default entries.
-. Click *Test Connection* to confirm that the parameters of your global Siebel connector are accurate, and that Mule is able to successfully connect to your instance of Siebel. Read more about link:/mule-user-guide/v/3.8/testing-connections[Testing Connections].
+. Click *Test Connection* to confirm that the parameters of your global Siebel connector are accurate, and that Mule is able to successfully connect to your instance of Siebel. Read more about link:/anypoint-studio/v/6/testing-connections[Testing Connections].
 . Click *OK* to save the global connector configurations.
 
 == Using the Connector
@@ -1070,14 +1070,9 @@ output.LastName = input.Last_Name;
 When executing queries using the *Siebel Integration Object * , you have a few options on how to filter the results http://docs.oracle.com/cd/E14004_01/books/EAI2/EAI2_UseEAIAdapt5.html[Siebel Query Method].
 
 One way is to modify the property set given as input to the query and change the value of the fields that enter your search criteria with a Siebel expression in order to filter the results.
-+
-image:search-spec.png[image]
+
 
 Another way is to use the "searchspec" field in the business object you wish to filter. In order to guarantee the records are filtered correctly, no other business object field should be used alongside the searchspec field.
-
-+
-image:search-spec-field.png[image]
-
 
 == Managing the Connection Pool
 
