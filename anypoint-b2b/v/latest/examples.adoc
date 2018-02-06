@@ -34,17 +34,22 @@ Go to the B2B Transmissions area of APM to view tracked events and messages.
 // Promotion Scenarios
 include::_sources/promotion-scenarios.adoc[leveloffset=+1]
 
-////
-=== Rough draft graphic for certs promo
 
-removed image PromoteIDsOffCertsOn kris 7/1/2017
+=== Rough draft graphics for promotion scenarios
 
 
-include::_sources/promotion-scenarios.adoc[leveloffset=+1]
+[[img-PromoteIDsOffCertsOn]]
 
-//=== Rough draft graphic for certs promo
+image::PromoteIDsOffCertsOn.png[img-PromoteIDsOffCertsOn, title="Promotion with IDs off and Certificates On"]
 
-removed image PromoteIDsOffCertsOn\
+
+
+[[img-promote-keep-certs]]
+
+image::promote-keep-certs.png[img-promote-keep-certs, title="promote-keep-certs"]
+
+
+
 
 ////
 
