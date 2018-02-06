@@ -37,17 +37,14 @@ include::_sources/promotion-scenarios.adoc[leveloffset=+1]
 
 === Rough draft graphics for promotion scenarios
 
+[[img-promote-keep-certs]]
+
+image::promote-keep-certs.png[img-promote-keep-certs, title="Promotion with Certificates Selected"]
+
 
 [[img-PromoteIDsOffCertsOn]]
 
-image::PromoteIDsOffCertsOn.png[img-PromoteIDsOffCertsOn, title="Promotion with IDs off and Certificates On"]
-
-
-
-[[img-promote-keep-certs]]
-
-image::promote-keep-certs.png[img-promote-keep-certs, title="promote-keep-certs"]
-
+image::PromoteIDsOffCertsOn.png[img-PromoteIDsOffCertsOn, title="Promotion with IDs Not Selected and Certificates Selected"]
 
 
 
