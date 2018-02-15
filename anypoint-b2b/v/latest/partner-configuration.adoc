@@ -30,7 +30,7 @@ image::partner-configuration.png[img-partner-configuration,title="Partner Config
 
 . On the xref:img-partner-configuration[]:
 +
-To add or edit settings for the _Home Partner_ (*Your company* on the
+To add or edit settings for the _Home Partner_ ([small]#*Your company*# on the
 xref:img-partner-configuration[]), in the *Name* table, click the name of your company.
 +
 To add a new partner, click *New Partner*.
