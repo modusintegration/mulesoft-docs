@@ -1,7 +1,6 @@
 // Master TOC
 
-// * link:getting-started[Anypoint Platform Overview]
-* link:connectors[Connectors and Modules]
+* link:connectors[Connectors]
 * link:anypoint-b2b[PortX]
 * link:eu-control-plane[EU Control Plane]
 * link:healthcare-toolkit[Healthcare Toolkit]
