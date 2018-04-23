@@ -1,96 +1,69 @@
-= Anypoint Partner Manager
-:keywords: b2b, introduction, portal, partner, manager
+= Anypoint B2B
+:keywords: b2b, edi, portal
 
-Anypoint Partner Manager (APM) provides a single web-based user interface for <<Transaction Monitoring>>, <<Partner Configuration>>, and <<Administration>>.
+Anypoint B2B enables Mule users to connect with trading partners using EDI over AS2, FTP, and other protocols. Anypoint B2B integrates seamlessly into the Mule runtime.
 
-== Transaction Monitoring
+== About this Page
 
-Because B2B transactions often communicate contractual obligations between companies, it is desirable (and often necessary) to track all transmissions sent or received, storing the  transmission content as well as metadata (such as data and time the transmission was sent or received, the identity of the partner, and success or failure of processing). APM provides a simple, secure, and integrated mechanism for tracking transactions within MuleSoft flows. Uses for this data include  
+This page introduces Anypoint B2B and links to pages that provide Anypoint B2B implementation examples in the context of Anypoint Studio, Mule’s graphical user interface. In addition, we provide configuration details for implementing Anypoint B2B in Anypoint Studio's XML Editor. 
 
-* Non-repudiation.
-* Correlation of acknowledgments.
-* Error correction.
-* Auditing.
+== Overview
 
-For more information, see link:/anypoint-b2b/transaction-monitoring[Transaction Monitoring].
+Anypoint B2B includes the following:
 
-== Partner Configuration
+* EDI Module
+** EDI message-reading, message-validation, and message-writing capability
+** link:/anypoint-b2b/edi-tradacoms[TRADACOMS EDI Support]
+** Integration with DataSense and DataWeave
+** X12 message packs for 4010 and 5010
+** X12 HIPAA module
+** link:/anypoint-b2b/supported-edi-document-types[EDIFACT message packs] for versions D.93A, D.95B, D.96A, D.98B, D.99A, D.99B, D.00A, D.01B, D.02A, and D.03a
+** Ability to define your own schemas or to customize the base X12/EDIFACT schemas
 
-APM provides the ability to edit, store, and retrieve configuration settings for the transport and format of B2B messages. For example, EDI messages are often sent over the AS2 protocol in order to ensure security and integrity of the transmissions. Each trading partner may have different AS2 settings; for example, each partner will have its own certificate. In addition, different partners may use different format protocols such as EDI X12, EDIFACT, or XML, and they may use different options within those protocols. APM allows this configuration data to be managed outside of your Mule applications, so that they can be reviewed without looking at the code and updated without re-deploying your Mule flows.
+* link:/anypoint-b2b/anypoint-partner-manager[Anypoint Partner Manager (APM)]
+** link:/anypoint-b2b/partner-configuration[Partner Configuration]
+** link:/anypoint-b2b/transaction-monitoring[Transaction Monitoring]
 
-For more information, see link:/anypoint-b2b/partner-configuration[Partner Configuration].
+* link:/anypoint-b2b/as2-connector[AS2 Connector]
+* link:/anypoint-b2b/ftps-connector[FTPS Connector]
 
-== Administration
+* link:/anypoint-b2b/partner-manager-connector[Partner Manager Connector]
+** Controls connectivity between Anypoint Partner Manager and enabled connectors
+** Enables message tracking for non-EDI message types
 
-Your company is considered a trading partner in that all the settings you can configure for a trading partner, you can configure for your company. However, APM also offers other settings that apply only to your company, such as link:/anypoint-b2b/security[security] settings.
+== Requirements
 
-For more information, see link:/anypoint-b2b/administration[Administration].
+* Mule 3.6.0 and later
+* Anypoint Studio, Version 5.0 (March 2015 or later)
 
-== Key Concepts
+== Prerequisites
 
-Tracking metadata discussed in <<Partner Configuration>> is stored in a database in CloudHub, and the actual transmission content is saved to an S3 bucket or to a customer-provided transmission persistence storage. Find more information about this and other conceptual topics in
-link:/anypoint-b2b/key-concepts[Key Concepts].
+This page assumes that you are familiar with:
 
-
-== Examples
-
-In the most common scenario, APM is used in conjunction with Anypoint Studio, Partner Manager Connector, and other MuleSoft connectors. Find information about this and other APM use cases in link:/anypoint-b2b/examples[Examples].
-
-== Start Anypoint Manager
-
-. link:https://anypoint.mulesoft.com/apiplatform[Sign up] to use Anypoint Platform.
-. Log into Anypoint Platform.
-The xref:img-anypoint-platform-application-selection[] appears.
-
-[[img-anypoint-platform-application-selection]]
-image::anypoint-platform-application-selection.png[img-anypoint-platform-application-selection,title="Anypoint Platform Application Selection Page"]
-
-[start=3]
-
-. On the Anypoint Platform application selection screen, in the *Manage* drop-down listbox, click *Partner Manager*.
-+
-The xref:img-apm-start[] page appears.
-+
-For more information, see  link:/anypoint-b2b/transaction-monitoring[Transaction Monitoring].
-
-[[img-apm-start]]
-image::apm-start.png[img-apm-start,title="Transaction Monitoring Page"]
-
-[start=4]
-
-. To configure or edit the configuration of a trading partner, see link:/anypoint-b2b/partner-configuration[Partner Configuration].
-+
-To edit or configure settings for your company, see link:/anypoint-b2b/administration[Administration].
+* Mule
+* link:/mule-user-guide/v/3.8/anypoint-connectors[Anypoint Connectors]
+* The Anypoint Studio interface (for information about the interface, see
+link:/anypoint-studio/v/6/index[Anypoint Studio Essentials]).
+To increase your familiarity with Studio, consider completing one or more
+link:/anypoint-studio/v/6/basic-studio-tutorial[Anypoint Studio Tutorials].
+* link:/mule-user-guide/v/3.8/mule-concepts#flows[Mule Flows]
+* link:/mule-user-guide/v/3.8/global-elements[Mule Global Elements]
 
 
+== Getting Started
 
+* link:/anypoint-b2b/anypoint-partner-manager[Anypoint Partner Manager]
+* link:/anypoint-b2b/x12-module[X12 Module] (http://mulesoft.github.io/edi-module/x12/[Reference])
+* link:/anypoint-b2b/edifact-module[EDIFACT Module] (http://mulesoft.github.io/edi-module/edifact/[Reference])
+* link:/anypoint-b2b/ftps-connector[FTPS Connector] (http://modusintegration.github.io/mule-connector-ftps/[Reference])
+* link:/anypoint-b2b/as2-connector[AS2 Connector - 2.0.0] (http://modusintegration.github.io/mule-connector-as2/[Reference])
+* link:/anypoint-b2b/edi-x12-order-processing-example[X12 Order Processing Example]
+* link:/anypoint-b2b/supported-edi-document-types[Supported EDI Document Types]
 
-== Access Management
+== Release Notes
 
-Use link:/access-management/[Anypoint Access Management] to create APM  link:/access-management/users[users] and manage their link:/access-management/roles[roles].
-
-APM roles include the following:
-
-[%header,cols="1,3,1"]
-|===
-|Task |Privilege |Scope
-
-|View Partners
-|Can view all partners and their information and settings.
-.4+.^|Assigned per environment
-
-|Manage Partners
-|In addition to privileges of View Partners, can add new partners and update information and settings for partners.
-
-|View Transactions
-|Can view data in the B2B Transactions monitoring screen.
-
-
-|Manage Transactions
-|In addition to privileges of View Transactions, can replay transactions.
-
-|Administer Partners
-|In addition to all the  privileges of Manage Partners and Manage Transactions, can generate new Api Keys for the organization and promote Partner settings across environments.
-|Assigned per Business Group. Has privileges in all environments in the Business Group.
-
-|===
+* link:/release-notes/anypoint-partner-manager-release-notes[Anypoint Partner Manager Release Notes]
+* link:/release-notes/partner-manager-connector-release-notes[Partner Manager Connector Release Notes]
+* link:/release-notes/as2-connector-release-notes[AS2 Connector Release Notes]
+* link:/release-notes/ftps-connector-release-notes[FTPS Connector Release Notes]
+* link:/release-notes/x12-edifact-modules-release-notes[X12/EDIFACT EDI Modules Release Notes]
