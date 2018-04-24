@@ -2,6 +2,6 @@
 * link:/connectors/[Connectors]
 
 
-** link:/portx/partner-manager-connector[Partner Manager Connector]
-** link:/portx/as2-connector[AS2 Connector]
-** link:/portx/ftps-connector[FTPS Connector]
+** link:/connectors/partner-manager-connector[Partner Manager Connector]
+** link:/connectors/as2-connector[AS2 Connector]
+** link:/connectors/ftps-connector[FTPS Connector]
