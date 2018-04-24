@@ -1,7 +1,0 @@
-// AS2 Connector TOC File
-
-
-* link:/as2-connector/as2-connector[AS2 Connector]
-
-
-
