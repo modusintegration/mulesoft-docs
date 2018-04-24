@@ -1,4 +1,4 @@
-= Anypoint B2B
+= PortX
 :keywords: b2b, edi, portal
 
 Anypoint B2B enables Mule users to connect with trading partners using EDI over AS2, FTP, and other protocols. Anypoint B2B integrates seamlessly into the Mule runtime.
