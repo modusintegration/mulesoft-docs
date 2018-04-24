@@ -1,6 +1,6 @@
 // Anypoint B2B TOC File
 
-* link:/anypoint-b2b/[Anypoint B2B]
+* link:/portx/[PortX]
 
 ** link:/anypoint-b2b/edifact-module[EDIFACT Module]
 
