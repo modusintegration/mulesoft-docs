@@ -1,5 +1,0 @@
-// Core Connectors 4.0 TOC File
-* link:/[Connectors and Modules]
-
-** link:/ftps-connector[FTPS Connector]
-

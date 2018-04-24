@@ -1,5 +1,5 @@
 // Core Connectors 4.0 TOC File
-* link:/[Connectors and Modules]
+* link:/connectors/[Connectors]
 
 
 ** link:/portx/partner-manager-connector[Partner Manager Connector]
