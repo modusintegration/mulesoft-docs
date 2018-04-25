@@ -2,8 +2,6 @@
 
 * link:index[Release Notes]
 
-** link:/release-notes[Anypoint B2B Release Notes]
-
 ** link:/release-notes/Anypoint Partner Manager Release Notes]
 ** link:/release-notes/[Partner Manager Connector Release Notes]
 
