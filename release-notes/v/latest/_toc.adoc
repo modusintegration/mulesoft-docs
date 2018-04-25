@@ -2,7 +2,6 @@
 
 * link:index[Release Notes]
 
-** link:anypoint-b2b-release-notes[Anypoint B2B Release Notes]
-*** link:anypoint-partner-manager-release-notes[Anypoint Partner Manager Release Notes]
-*** link:partner-manager-connector-release-notes[Partner Manager Connector Release Notes]
-*** link:ftps-connector-release-notes[FTPS Connector Release Notes (for Mule 4)]
+** link:anypoint-partner-manager-release-notes[Anypoint Partner Manager Release Notes]
+** link:partner-manager-connector-release-notes[Partner Manager Connector Release Notes]
+** link:ftps-connector-release-notes[FTPS Connector Release Notes (for Mule 4)]
