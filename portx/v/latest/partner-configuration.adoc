@@ -5,7 +5,7 @@
 :keywords: portal, partner, manager
 
 
-To configure a trading partnership using PortX (APM), you must:
+To configure a trading partnership using PortX, you must:
 
 . Configure settings for your company
 +
@@ -78,7 +78,7 @@ To save new settings, click *Save*.
 
 == Exporting Partners
 
-PortX (APM) provides the ability to export partners for:
+PortX provides the ability to export partners for:
 
 * Use in another environment
 * Backup purposes

@@ -22,7 +22,7 @@ image:PromoteIDsOffCertsOn.png["rough draft graphic, cert promotion scenario"]
 
 == Exporting partners from an environment
 
-PortX (APM) provides the ability to export Partners for backup purposes. These Partners can be imported back into APM later. Please consult the <<Importing Partners Into A Specific Environment>> section for more information.
+PortX provides the ability to export Partners for backup purposes. These Partners can be imported back into APM later. Please consult the <<Importing Partners Into A Specific Environment>> section for more information.
 Exporting partners involves a series of steps. From the partners list:
 
 . Select one or more partners from list. This will cause the "Export" button will be enabled.
@@ -33,7 +33,7 @@ Please not that the file is automatically named. The file name pattern consists 
 
 == Importing Partners Into A Specific Environment
 
-PortX (APM) provides the ability to import <<Partners>> that were previously backed up using the export functionality. Please consult the <<Exporting partners from an environment>> section for more information.
+PortX provides the ability to import <<Partners>> that were previously backed up using the export functionality. Please consult the <<Exporting partners from an environment>> section for more information.
 Only users with the appropriate role or permissions will be able to import partners. The destination environment may already have the same partners that are being imported. If this is the case, data from the partners being imported will override the data of the existing partners.
 Importing partners involves a series of steps, starting from the partners list screen:
 
@@ -45,7 +45,7 @@ Importing partners involves a series of steps, starting from the partners list s
 
 == Promoting Partners Into A Specific Environment
 
-PortX (APM) provides the ability to "promote", i.e. "copy", <<Partners>> from one environment to another.
+PortX provides the ability to "promote", i.e. "copy", <<Partners>> from one environment to another.
 Only users with the appropriate role or permissions will be able to promote partners. This process involves a series of steps, starting from the partners list screen:
 
 . Select one or more partners to promote from the list.

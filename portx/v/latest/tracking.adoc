@@ -1,6 +1,6 @@
 = Tracking
 
-For a given message, PortX (APM) facilitates storage of:
+For a given message, PortX facilitates storage of:
 
 Payload:: The content of the message
 

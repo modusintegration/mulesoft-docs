@@ -1,7 +1,7 @@
 = Tracking Scenarios
 :keywords: Anypoint b2b PortX concepts
 
-This section identifies scenarios in which PortX (APM) is useful to track B2B exchanges. A basic knowledge of APM is assumed; see  link:/anypoint-b2b/anypoint-partner-manager[PortX] for more information.
+This section identifies scenarios in which PortX is useful to track B2B exchanges. A basic knowledge of APM is assumed; see  link:/anypoint-b2b/anypoint-partner-manager[PortX] for more information.
 
 
 == Replaying an Incomplete Transaction

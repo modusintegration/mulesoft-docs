@@ -2,7 +2,7 @@
 
 :keywords: PortX API, Partner Manager Query Language, PMQL
 
-Clients often want to interact with PortX (APM)
+Clients often want to interact with PortX
 programmatically to automate their processing tasks.
 APM has two distinct APIs that clients can call:
 
