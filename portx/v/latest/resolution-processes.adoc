@@ -11,14 +11,14 @@ a document does not match any of the defined document types. Going
 even further, you can configure a global catch-all for this standard such that it
 is applied to all your partners. In order to support this level of flexibility,
 configurations are defined at the partner or the home organization level.
-APM attempts to resolve a configuration at the home organization level should
+PortX attempts to resolve a configuration at the home organization level should
 it fail to resolve it at the partner level. This page describes in
 the resolution process for each type of configuration.
 
 == Endpoint Resolution
 
-Endpoint resolution begins when an APM-managed connector pulls down its
-configuration from APM. The resolution outputs the endpoint that the connector
+Endpoint resolution begins when an PortX-managed connector pulls down its
+configuration from PortX. The resolution outputs the endpoint that the connector
 reads to configure itself.
 
 === Resolution variables
@@ -43,17 +43,17 @@ different message types and versions. Leaving a document type's message
 type and version undefined implicitly means that the document type can be
 applied to any document for the given standard. Alternatively, you can explicitly
 set message type and version to the reserved keyword *ANY* to attain the same
-behavior. APM always tries to match a document to the most specific
+behavior. PortX always tries to match a document to the most specific
 document type before trying to match the document to a more general
 document type.
 xref:img-resolve-document-definition[] shows the
-sequence of determinations APM goes through to arrive at the document
+sequence of determinations PortX goes through to arrive at the document
 definition to use during route resolution or tracking.
 
 [[img-resolve-document-definition]]
 image::resolve-document-definition.png[img-resolve-document-definition,title="Document definition resolution flowchart"]
 
-APM comes with pre-configured read-only document types for X12 and EDIFACT
+PortX comes with pre-configured read-only document types for X12 and EDIFACT
 that are defined on the home organization. An X12 or EDIFACT document that is not
 covered by any user-defined document type _always_ matches to one of
 these pre-defined document types.
@@ -62,7 +62,7 @@ these pre-defined document types.
 == Routes Resolution
 
 Calling Partner Manager Connector's _resolve-route_ operation triggers routes
-resolution in APM which, similar to endpoint resolution, is driven by the following
+resolution in PortX which, similar to endpoint resolution, is driven by the following
 factors:
 
 * Partner
@@ -74,7 +74,7 @@ factors:
 Taking a closer look, notice that the endpoint type is not included in
 the list of factors determining the output of routes. The is because the process
 assumes the endpoint to be always of type _receive_. xref:img-resolve-routes[]
-illustrates APM's logic for resolving routes.
+illustrates PortX's logic for resolving routes.
 
 [[img-resolve-routes]]
 image::resolve-routes.png[img-resolve-routes,title="Routes resolution flowchart"]

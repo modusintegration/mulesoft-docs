@@ -15,7 +15,7 @@ NOTE: Your company may have been set up during the provisioning process. If so, 
 
 == Get Started
 
-. link:/anypoint-b2b/anypoint-partner-manager#start-anypoint-manager[Start APM].
+. link:/anypoint-b2b/anypoint-partner-manager#start-anypoint-manager[Start PortX].
 The <<anypoint-partner-manager.adoc#img-apm-start,Transaction Monitoring Page>> appears.
 . In the left-hand navigation pane, click *Partner Configuration*.
 The xref:img-partner-configuration[] appears.
@@ -83,11 +83,11 @@ PortX provides the ability to export partners for:
 * Use in another environment
 * Backup purposes
 
-These partners can be imported back into APM later; see <<Importing Partners>> section for more information.
+These partners can be imported back into PortX later; see <<Importing Partners>> section for more information.
 
 === To Export a Partner
 
-. link:/anypoint-b2b/anypoint-partner-manager#start-anypoint-manager[Start APM]. +
+. link:/anypoint-b2b/anypoint-partner-manager#start-anypoint-manager[Start PortX]. +
 In the left-hand navigation pane, click *Partner Configuration*. The xref:img-partner-configuration[] appears.
 . On the xref:img-partner-configuration[], in the *Name* table, select the radio button or radio buttons of the partner or partners you want to export. +
 On the xref:img-partner-configuration[], the *Promote* and *Export* buttons appear to the left of the *New Partner* button.
@@ -104,7 +104,7 @@ For example, *partners_export_2016-07-12.txt*
 
 == Importing Partners
 
-APM provides the ability to import Partners that have been exported (see <<Exporting Partners>> for more information.
+PortX provides the ability to import Partners that have been exported (see <<Exporting Partners>> for more information.
 Only users with the appropriate role or permissions are able to import partners.
 
 NOTE: If a specific partner exists in an environment and you import that partner into the environment, data from the imported partner replaces the data of the existing partner.
@@ -124,7 +124,7 @@ If this checkbox is deselected, then certificates for this partner that exist in
 . Click *Import*.
 
 == Promoting a Partner
-APM provides the ability to _promote_ - that is, copy, a trading partner from one environment to another. For information about scenarios in which you might want to promote a partner, see link:/anypoint-b2b/examples#promotion-scenarios[Promotion Scenarios].
+PortX provides the ability to _promote_ - that is, copy, a trading partner from one environment to another. For information about scenarios in which you might want to promote a partner, see link:/anypoint-b2b/examples#promotion-scenarios[Promotion Scenarios].
 
 
 NOTE: Only users with the appropriate role or permissions will be able to promote partners.

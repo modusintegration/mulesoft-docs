@@ -10,11 +10,11 @@ You can:
 * Review and monitor errors and acknowledgements.
 * Search for metadata
 
-This page identifies the APM components you use to monitor transactions; see also link:/anypoint-b2b/tracking-scenarios[Tracking Scenarios].
+This page identifies the PortX components you use to monitor transactions; see also link:/anypoint-b2b/tracking-scenarios[Tracking Scenarios].
 
 == Get Started
 
-. link:/anypoint-b2b/anypoint-partner-manager#start-anypoint-manager[Start APM].
+. link:/anypoint-b2b/anypoint-partner-manager#start-anypoint-manager[Start PortX].
 The <<img-transaction-monitoring>> appears.
 
 [[img-transaction-monitoring]]

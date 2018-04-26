@@ -140,7 +140,7 @@ Default::
 * `Fail document when too many repeats of a segment`
 * `Fail document when unused segments are included`
 
-Each of these options identifies a condition for which APM can fail an inbound  document from a trading partner. If any of these options selected, and an X12 document meets the condition in a selected option, a 997 message stating a failure will be sent.
+Each of these options identifies a condition for which PortX can fail an inbound  document from a trading partner. If any of these options selected, and an X12 document meets the condition in a selected option, a 997 message stating a failure will be sent.
 
 |Parser Settings (Other options)
 

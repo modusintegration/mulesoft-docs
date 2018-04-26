@@ -22,7 +22,7 @@ image:PromoteIDsOffCertsOn.png["rough draft graphic, cert promotion scenario"]
 
 == Exporting partners from an environment
 
-PortX provides the ability to export Partners for backup purposes. These Partners can be imported back into APM later. Please consult the <<Importing Partners Into A Specific Environment>> section for more information.
+PortX provides the ability to export Partners for backup purposes. These Partners can be imported back into PortX later. Please consult the <<Importing Partners Into A Specific Environment>> section for more information.
 Exporting partners involves a series of steps. From the partners list:
 
 . Select one or more partners from list. This will cause the "Export" button will be enabled.

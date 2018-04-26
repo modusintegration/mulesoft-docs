@@ -24,7 +24,7 @@ image::tracking-storage-and-retrieval.png[img-tracking-storage-and-retrieval,tit
 
 == Payload Tracking
 
-APM payload tracking is designed to allow extensive customer control. You decide the following:
+PortX payload tracking is designed to allow extensive customer control. You decide the following:
 
 * Where payloads are stored
 * For how long payloads are stored
@@ -45,7 +45,7 @@ You can store tracking data in either of two ways.
 
 === Amazon S3
 
-Amazon Simple Storage Service (Amazon S3), provides developers and IT teams with secure, durable, highly-scalable cloud storage. Using this method, you need only create an account and configure account credentials in APM.
+Amazon Simple Storage Service (Amazon S3), provides developers and IT teams with secure, durable, highly-scalable cloud storage. Using this method, you need only create an account and configure account credentials in PortX.
 
 === Customer-Selected Storage
 

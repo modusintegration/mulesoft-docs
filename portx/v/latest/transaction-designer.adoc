@@ -1,6 +1,6 @@
 = Transaction Designer
 
-_Transaction Designer_ is an APM feature that enables you to design the _elements_ of a transaction. Transaction elements include:
+_Transaction Designer_ is an PortX feature that enables you to design the _elements_ of a transaction. Transaction elements include:
 
 * Document Types
 * Endpoints

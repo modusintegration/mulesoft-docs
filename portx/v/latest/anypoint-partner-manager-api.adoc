@@ -4,7 +4,7 @@
 
 Clients often want to interact with PortX
 programmatically to automate their processing tasks.
-APM has two distinct APIs that clients can call:
+PortX has two distinct APIs that clients can call:
 
 * *Trading Partner Management Service API* (TPM Service API) - Manages partner-related configurations such as document definitions. +
 *Download URL:*

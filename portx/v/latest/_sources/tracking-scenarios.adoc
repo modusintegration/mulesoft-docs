@@ -1,7 +1,7 @@
 = Tracking Scenarios
 :keywords: Anypoint b2b PortX concepts
 
-This section identifies scenarios in which PortX is useful to track B2B exchanges. A basic knowledge of APM is assumed; see  link:/anypoint-b2b/anypoint-partner-manager[PortX] for more information.
+This section identifies scenarios in which PortX is useful to track B2B exchanges. A basic knowledge of PortX is assumed; see  link:/anypoint-b2b/anypoint-partner-manager[PortX] for more information.
 
 
 == Replaying an Incomplete Transaction
@@ -11,7 +11,7 @@ On the link:/anypoint-b2b/monitor-b2b-transactions[B2B Transactions Page], the T
 Green checkmark:: Indicates a complete transaction.
 Red exclamation point (*!*):: Indicates a transaction has one or more errors that prevented completion.
 
-After you identify and fix the cause of the error that prevented the transaction from completing, you can use APM to re-run the transaction.
+After you identify and fix the cause of the error that prevented the transaction from completing, you can use PortX to re-run the transaction.
 
 Possible errors include:
 
