@@ -12,7 +12,7 @@ include::/_sources/edit-home-partner-settings.adoc[]
 +
 The page that you clicked in the left-hand pane appears. For information about the page, click the corresponding link in the following list.
 
-* link:/anypoint-b2b/environments[Environments]
-* link:/anypoint-b2b/error-codes[Error Codes]
-* link:/anypoint-b2b/security[Security]
-* link:/anypoint-b2b/lookup-tables[Lookup Tables Administration]
+* link:/portx/environments[Environments]
+* link:/portx/error-codes[Error Codes]
+* link:/portx/security[Security]
+* link:/portx/lookup-tables[Lookup Tables Administration]

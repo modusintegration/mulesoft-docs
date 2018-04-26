@@ -2,8 +2,8 @@
 
 You can configure:
 
-* link:/anypoint-b2b/document-types[Document Types]
-* link:/anypoint-b2b/endpoints[Endpoints]
-* link:/anypoint-b2b/maps[Maps]
-* link:/anypoint-b2b/channels[Channels]
-* link:/anypoint-b2b/routes[Routes]
+* link:/portx/document-types[Document Types]
+* link:/portx/endpoints[Endpoints]
+* link:/portx/maps[Maps]
+* link:/portx/channels[Channels]
+* link:/portx/routes[Routes]

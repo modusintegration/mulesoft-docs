@@ -16,6 +16,6 @@ The <<img-edifact-settings>> appears.
 image::edifact-settings.png[img-edifact-settings, title="EDIFACT Settings Page"]
 
 
-* link:/anypoint-b2b/edifact-identity-settings[EDIFACT Identity Settings]
-* link:/anypoint-b2b/edifact-settings-inbound-(read)[EDIFACT Inbound (Read) Settings]
-* link:/anypoint-b2b/edifact-settings-outbound-(write)[EDIFACT Outbound (Write) Settings]
+* link:/portx/edifact-identity-settings[EDIFACT Identity Settings]
+* link:/portx/edifact-settings-inbound-(read)[EDIFACT Inbound (Read) Settings]
+* link:/portx/edifact-settings-outbound-(write)[EDIFACT Outbound (Write) Settings]

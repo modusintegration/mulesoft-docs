@@ -65,7 +65,7 @@ A table appears in the lower part of the Central Pane. Table column headings dep
 
 The following views are possible:
 
-* link:/anypoint-b2b/transactions-view[Transactions View]
-* link:/anypoint-b2b/transmissions-view[Transmissions View]
-* link:/anypoint-b2b/errors-view[Errors View]
-* link:/anypoint-b2b/documents-view[Documents View]
+* link:/portx/transactions-view[Transactions View]
+* link:/portx/transmissions-view[Transmissions View]
+* link:/portx/errors-view[Errors View]
+* link:/portx/documents-view[Documents View]
