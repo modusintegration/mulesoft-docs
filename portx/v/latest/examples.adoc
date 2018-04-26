@@ -1,7 +1,7 @@
 = Examples
 :keywords: b2b, portal, partner, manager, environments
 
-This page identifies examples of  link:/anypoint-b2b/anypoint-partner-manager[Anypoint Partner Manager] in use.
+This page identifies examples of  link:/anypoint-b2b/anypoint-partner-manager[PortX] in use.
 
 For conceptual information, see link:/anypoint-b2b/key-concepts[Key Concepts].
 

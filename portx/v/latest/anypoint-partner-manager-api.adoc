@@ -1,8 +1,8 @@
-= Anypoint Partner Manager API
+= PortX API
 
-:keywords: Anypoint Partner Manager API, Partner Manager Query Language, PMQL
+:keywords: PortX API, Partner Manager Query Language, PMQL
 
-Clients often want to interact with Anypoint Partner Manager (APM)
+Clients often want to interact with PortX (APM)
 programmatically to automate their processing tasks.
 APM has two distinct APIs that clients can call:
 

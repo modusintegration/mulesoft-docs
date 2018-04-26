@@ -14,16 +14,16 @@ This document is aimed at a technical audience possessing basic knowledge of Any
 == Running the example
 
 . Download the link:https://drive.google.com/open?id=1-59ej2jTORbPqI3vOt58SabbzOeIpHEw[application] and import it into Anypoint Studio.
-. From your web browser, log into Anypoint Partner Manager. Go to the Home Organization page and copy your secret API key.
-. From the imported Mule project in Anypoint Studio, click the file `b2b-tracking-transmission.xml` in the `app` folder, and select the *Global Elements* view tab. Open the Partner Manager Connector configuration and set the API Key you generated from Anypoint Partner Manager.
+. From your web browser, log into PortX. Go to the Home Organization page and copy your secret API key.
+. From the imported Mule project in Anypoint Studio, click the file `b2b-tracking-transmission.xml` in the `app` folder, and select the *Global Elements* view tab. Open the Partner Manager Connector configuration and set the API Key you generated from PortX.
 . Right-click  the imported project folder from the *Project Explorer* view. Select *Run As* and click *Mule Application*.
 . Create a copy of the file `po.xml` in `src/test/resources` and place it in the `outbox` directory
 . The file should disappear from the directory since the File Connector message source  deletes the file after it reads it.
-. Access the B2B Transmissions page in the Anypoint Partner Manager to confirm that the B2B exchange was tracked.
+. Access the B2B Transmissions page in the PortX to confirm that the B2B exchange was tracked.
 
 == Anypoint B2B Platform Transaction Tracking Walkthrough
 
-This walkthrough shows you how to leverage the Anypoint B2B Platform to track B2B exchanges for non-EDI messages and connectors that are not included in Anypoint B2B. In this walkthrough you will develop a Mule application that simulates a B2B exchange of a XML purchase order. The application will read a purchase order file from a directory in your local filesystem and save it to another directory. In between, the exchange, in terms of metadata, message content and other data, will be tracked using the Partner Manager Connector. Once tracked, the exchange can be viewed from the Anypoint Partner Manager.
+This walkthrough shows you how to leverage the Anypoint B2B Platform to track B2B exchanges for non-EDI messages and connectors that are not included in Anypoint B2B. In this walkthrough you will develop a Mule application that simulates a B2B exchange of a XML purchase order. The application will read a purchase order file from a directory in your local filesystem and save it to another directory. In between, the exchange, in terms of metadata, message content and other data, will be tracked using the Partner Manager Connector. Once tracked, the exchange can be viewed from the PortX.
 
 . Launch Anypoint Studio and create a new Mule project.
 . Switch to the *Global Elements* view and create a Partner Manager Connector configuration.
@@ -83,6 +83,6 @@ Consult the link:/anypoint-b2b/as2-and-edi-x12-purchase-order-walkthrough[AS2 an
 +
 . Drop the file link:https://drive.google.com/open?id=1-59ej2jTORbPqI3vOt58SabbzOeIpHEw[b2b-tracking-po.xml] in the `outbox` directory. You should see the file moved to the `inbox` directory.
 +
-. Access the Anypoint Partner Manager and go to the B2B transmissions view to confirm that the exchange was tracked:
+. Access the PortX and go to the B2B transmissions view to confirm that the exchange was tracked:
 +
 image:transmission-tracking-walk-10.png[transmission-tracking-walk-10]

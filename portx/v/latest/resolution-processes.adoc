@@ -1,9 +1,9 @@
 = Resolution Processes
 
-:keywords: Anypoint b2b Anypoint Partner Manager concepts
+:keywords: Anypoint b2b PortX concepts
 
 
-Anypoint Partner Manager (APM) offers a flexible approach to setting up different kinds of configurations
+PortX (APM) offers a flexible approach to setting up different kinds of configurations
 for link:/anypoint-b2b/b2b-transaction-processing-framework#document-type[document types], link:/anypoint-b2b/b2b-transaction-processing-framework#endpoints[endpoints], and link:/anypoint-b2b/routes[routes]. For example, you can configure
 a catch-all document type for a given standard. You can then apply this
 definition to a trading partner in case
