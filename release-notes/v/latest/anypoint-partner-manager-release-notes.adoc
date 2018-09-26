@@ -5,7 +5,7 @@
 
 == 1.26.0
 
-*September 26, 2018*
+*October 6, 2018*
 
 === Browser Support
 
@@ -26,10 +26,7 @@ Compatible with:
 
 === Fixed in this Release
 
-* Potential security issues inherited from third party libraries.
-* Account service endpoints can now opt-in using self-signed certs against MuleSoft APIs.
 * Unable to import exported file in Partner Manager. 
-* Reduced migration time by upgrading Flyway to latest version and performing parallelising tenant migration.
 
 == 1.25.2
 
