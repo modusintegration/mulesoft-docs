@@ -27,7 +27,7 @@ Compatible with:
 === Fixed in this Release
 
 * Potential security issues inherited from third party libraries.
-* Account service endpoints con opt-in using self-signed certs against MuleSoft APIs
+* Account service endpoints can now opt-in using self-signed certs against MuleSoft APIs.
 * Unable to import exported file in Partner Manager. 
 * Reduced migration time by upgrading Flyway to latest version and performing parallelising tenant migration.
 
