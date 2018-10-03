@@ -26,7 +26,8 @@ Compatible with:
 
 === Fixed in this Release
 
-* Unable to import exported file in Partner Manager. 
+* Changed ON HOLD status window type ID to a valid UUID for customers who had an invalid UUID. The invalid UUID prevented customers from importing an exported file into Partner Manager. 
+* Reporting partner import, promotion, and export errors to users.
 
 == 1.25.2
 
