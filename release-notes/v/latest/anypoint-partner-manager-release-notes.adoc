@@ -27,6 +27,7 @@ Compatible with:
 === Fixed in this Release
 
 * Unable to import exported file in Partner Manager. 
+* Audit logs for actions made by new users on sub organizations were logged at the root organization level.
 
 == 1.25.2
 
