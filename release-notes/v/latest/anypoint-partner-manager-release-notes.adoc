@@ -3,9 +3,9 @@
 
 *link:/anypoint-b2b/anypoint-partner-manager[Anypoint Partner Manager User Documentation]*
 
-== 1.26.0
+== 1.25.2
 
-*October 6, 2018*
+*October 9, 2018*
 
 === Browser Support
 
@@ -20,13 +20,13 @@ Compatible with:
 
 * X12 Module 1.2.1
 * EDIFACT Module 1.2.1
-* Partner Manager Connector 3.0.x
-* FTPS Connector 1.0.8
-* AS2 Connector 2.0.1
+* Partner Manager Connector 6.x
+* FTPS Connector 1.x
+* AS2 Connector 2.x
 
 === Fixed in this Release
 
-* Unable to import exported file in Partner Manager. 
+Audit logs for actions made by new users on sub organizations were logged at the root organization level.
 
 == 1.25.2
 
